@@ -1,0 +1,50 @@
+# Python / build
+__pycache__/
+*.py[cod]
+.venv/
+.venv-*/
+.venv-build/
+build/
+dist/
+*.spec
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.pip-tmp*/
+.pip-cache/
+.pip-*/
+.exe-tmp/
+exetmp/
+pip-*/
+
+# Local app data (never commit)
+todos.json
+ColourTodoData/
+data/
+app.log
+*.log
+*.corrupt-*.json
+
+# Test / capture scratch
+.todos-test*
+.ui-test*
+.tray-test*
+.capture*.json
+.drag-capture*.json
+.dialog-test*.json
+.frameless-*.json
+.smoke-data.json
+.pos*.json
+.minimal.png
+*.tmp
+.pip-*
+
+# OS / editors
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
